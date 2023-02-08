@@ -1,0 +1,50 @@
+ .navbar .nav-item .dropdown-menu{
+        display: none;
+ }
+ .navbar .nav-item:hover .dropdown-menu{
+        display: block;
+ }
+.my-caption{
+    height: 200px;
+    top: 150px;
+    background: rgba(0,0,0,0.5);
+}
+@media screen and (max-width: 600px) {
+    .my-caption{
+        height: 200px;
+        top:0;
+    }
+}
+ .faster:hover{
+     color:#FF4800;
+ }
+ .bg-orange{
+     background-color: #FF4800;
+ }
+ .bg-orange:hover{
+     background-color: #D93D00;
+     color:white;
+ }
+ .text-orange{
+     color:#FF4800;
+ }
+.nav-link:hover{
+     background-color: #D93D00;
+     color:white;
+ }
+.banner-section{
+    height:500px;
+    background-image: url("../img/header.jpg");
+
+}
+.banner-card{
+    margin-top:115px;
+    padding:50px;
+}
+
+.bg-paste{
+    background-color: #F2F2F4;
+}
+.free-quote-form{
+    padding:80px 40px;
+}
